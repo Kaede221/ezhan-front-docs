@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 import { withSidebar } from 'vitepress-sidebar'
 
 const vitePressOptions = {
+  lastUpdated: true,
   title: "E Station Docs",
   description: "E Stations's Front Docs",
   lang: 'zh-CN',
@@ -9,11 +10,13 @@ const vitePressOptions = {
     ['link', { rel: 'icon', href: '/logo.jpg' }]
   ],
   themeConfig: {
+
     nav: [
       { text: '快速开始', link: '/指南/快速开始' },
       {
         text: "组件", items: [
-          { text: "Shared", link: '/组件/shared' }
+          { text: "Shared", link: '/组件/shared' },
+          { text: "Chat", link: '/组件/chat' }
         ]
       }
     ],

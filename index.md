@@ -10,9 +10,10 @@ hero:
       link: /指南/快速开始
 
 features:
-  - title: 文档作者
-    details: Kaede221
-  - title: 更新日期
-    details: 2025.8.6
+  - title: 文档引擎
+    details: VitePress 启动!
+  - title: 文档作用
+    details: 帮助理解, 掌握前端逻辑
+  - title: 文档优势
+    details: 好看, 美观, 简洁
 ---
-
