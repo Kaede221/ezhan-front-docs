@@ -7,22 +7,26 @@
 ## 代码演示
 
 ```tsx
-<CustomNavBar
-  isBack
-  bgColor="#FFFFFF"
-  backHandler={handleClickEStaionIcon}
-  backIcon={
-    <Image
-      src={iconEStation}
-      style={{
-        width: "64rpx",
-        height: "64rpx",
-      }}
-    ></Image>
-  }
->
-  <View className="index-title">首页</View>
-</CustomNavBar>
+const Index = () => {
+  return (
+    <CustomNavBar
+      isBack
+      bgColor="#FFFFFF"
+      backHandler={handleClickEStaionIcon}
+      backIcon={
+        <Image
+          src={iconEStation}
+          style={{
+            width: "64rpx",
+            height: "64rpx",
+          }}
+        ></Image>
+      }
+    >
+      <View className="index-title">首页</View>
+    </CustomNavBar>
+  );
+};
 ```
 
 ## Props
