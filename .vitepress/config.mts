@@ -18,7 +18,8 @@ const vitePressOptions = {
           { text: "Index", link: "/组件/Index" },
           { text: "Shared", link: '/组件/Shared' },
           { text: "Chat", link: '/组件/Chat' },
-          { text: "Message", link: "/组件//Message" }
+          { text: "Message", link: "/组件/Message" },
+          { text: "My", link: "/组件/My" }
         ]
       }
     ],
