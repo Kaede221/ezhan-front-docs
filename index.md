@@ -2,18 +2,17 @@
 layout: home
 
 hero:
-  name: 校园E站 前端 文档
-  tagline: 各组件的使用方式
+  name: E Station Docs
+  tagline: 校园E站前端文档
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: 快速开始
+      link: /docs/start
 
 features:
   - title: 文档作者
     details: Kaede221
+  - title: 更新日期
+    details: 2025.8.6
 ---
 
