@@ -7,7 +7,7 @@ hero:
   actions:
     - theme: brand
       text: 快速开始
-      link: /docs/start
+      link: /快速开始
 
 features:
   - title: 文档作者

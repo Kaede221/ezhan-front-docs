@@ -10,10 +10,10 @@ const vitePressOptions = {
   ],
   themeConfig: {
     nav: [
-      { text: '快速开始', link: '/docs/start' },
+      { text: '快速开始', link: '/快速开始' },
       {
         text: "组件", items: [
-          { text: "Shared", link: '/docs/shared' }
+          { text: "Shared", link: '/组件/shared' }
         ]
       }
     ],
